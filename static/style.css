@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Content */
+.content {
+    padding: 20px;
+}
+
+/* Task list styling */
+.task-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.task-item h3 {
+    margin: 0;
+}
+
+.task-item p {
+    margin: 5px 0;
+}
+
+/* Form styling */
+form input,
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* Delete button */
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.delete-btn:hover {
+    background-color: #d32f2f;
+}
